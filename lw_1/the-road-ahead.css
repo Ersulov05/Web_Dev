@@ -106,14 +106,6 @@ body {
     left: 20px;
 }
 
-.right{
-    position: absolute;
-    width: 639.98px;
-    height: 32px;
-    left: 319.98px;
-    padding: 3px, 9.97px, 3px, 358.02px;   
-}
-
 #image{
     position: absolute;
     width: 1440px;
@@ -218,6 +210,14 @@ body {
     letter-spacing: 0em;
     text-align: left;
     color: rgba(255, 255, 255, 1);
+}
+
+.right{
+    position: absolute;
+    width: 639.98px;
+    height: 32px;
+    left: 319.98px;
+    padding: 3px, 9.97px, 3px, 358.02px;   
 }
 
 #footer .contacttext{
