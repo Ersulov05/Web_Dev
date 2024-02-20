@@ -193,11 +193,11 @@ body {
     background-color: rgba(77, 86, 93, 0.6);
     object-fit: cover;
 }
+
 #f {
     position: absolute;
     width: 1440px;
     height: 89px;
-
     background-color: rgba(77, 86, 93, 0.5);
 }
 
