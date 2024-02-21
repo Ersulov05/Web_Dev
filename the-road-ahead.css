@@ -22,6 +22,8 @@ body {
     letter-spacing: 0.6000000238418579px;
     text-align: left;
     color: rgba(46, 46, 46, 1);
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 .escape{
@@ -32,18 +34,11 @@ body {
     left: 250px; 
 }
 
-.escapetext{
+.escapelogo{
     position: absolute;
     width: 92px;
     height: 26px;
     top: 3px;
-    
-    font-family: Lora;
-    font-size: 26px;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0em;
-    text-align: left;
 }
 
 .home {
@@ -198,7 +193,8 @@ body {
     position: absolute;
     width: 1440px;
     height: 89px;
-    background-color: rgba(77, 86, 93, 0.5);
+    background: rgba(35, 47, 56, 0.6);
+
 }
 
 #footer .escape{
@@ -209,14 +205,12 @@ body {
     left: 240px;
 }
 
-#footer .escapetext{
-    font-family: Lora;
-    font-size: 26px;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: rgba(255, 255, 255, 1);
+#footer .escapelogofooter{
+    position: absolute;
+    width: 92px;
+    height: 26px;
+    top: 3px;
+    left: 10px;
 }
 
 .right{
@@ -263,4 +257,6 @@ body {
     letter-spacing: 1px;
     text-align: right;
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    text-transform: uppercase;
 }
