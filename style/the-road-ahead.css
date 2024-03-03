@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    padding-top: 3px;
+    display: inline-block;
+    width: 92px;
+    height: 26px;
+}
+
+.header {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 17px 0;
+    margin-bottom: 82px;
+}
+
+.navigation {
+    width: 89%;
+    margin: auto auto;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.navigation__list {
+    max-width: max-content;
+    margin: 0 0 0 auto;
+}
+
+.navigation__list-item {
+    display: inline-block;
+}
+
+.navigation__link {
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgba(46, 46, 46, 1);
+    font: 400 12px/20px Oxygen;
+    letter-spacing: 0.6px;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.title {
+    margin: 0 auto;
+    max-width: 498px;
+    font: 400 50px/51px Lora;
+    letter-spacing: 2px;
+    text-align: center;
+    color: rgba(46, 46, 46, 1);
+    margin-bottom: 20px;
+}
+
+.under-title {
+    margin: 0 auto;
+    max-width: 504px;
+    font: 400 17px/20px Oxygen;
+    letter-spacing: 0;
+    text-align: center;
+    color: rgba(46, 46, 46, 0.63);
+    margin-bottom: 113px;
+}
+
+.image {
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 3px;
+}
+
+.main {
+    width: 100%;
+}
+
+.content {
+    width: 100%;
+    background: rgba(247, 247, 247, 1);
+}
+
+.content__text {
+    margin: 0 auto;
+    max-width: 960px;
+    padding-top: 140px;
+    padding-bottom: 135px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font: 400 24px/35px Oxygen;
+    letter-spacing: 0;
+    text-align: left;
+    color: rgba(16, 19, 21, 1);
+}
+
+.footer {
+    width: 100%;
+    background: url(../img/footer-background.png) rgba(35, 47, 56, 0.6);
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+
+.container {
+    max-width: 960px;
+    padding: 17px 0;
+    margin: 0 auto;
+}
+
+.navigation__link_color {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgba(255, 255, 255, 0.6);
+}

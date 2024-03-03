@@ -1,66 +1,105 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="description" content="LW_1">
-        <title>LW_1</title>
-        <link rel="stylesheet" href="the-road-ahead.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <div id="main">
-            <div id="header">
-                <div class="escape">
-                    <img class="escapelogo" src="images/Escape.Header.svg" alt="лого">
-                    <div class="home">
-                        <a class="hometext header_font" href="#">Home</a>
-                        <a class="contact" href="#">
-                            <div class="contacttext header_font">Contact</div>
-                        </a>  
-                        <a class="about" href="#">
-                            <div class="abouttext header_font">About</div>                     
-                        </a>
-                        <a class="categories" href="#">
-                            <div class="categoriestext header_font">Categories</div>  
-                        </a>                 
-                    </div>
-                </div>
-            </div>
-            <div id="title">
-                <div id="titletext1">
-                   The Road Ahead
-                </div>       
-                <div id="titletext2">
-                    The road ahead might be paved - it might not be.
-                </div> 
-            </div> 
-            <img id="image" src="images/northern_lights.png" alt="альтернативный текст">  
-            <div id="mainblock"> 
-                <p id="maintext" class="text">
-                    Dark spruce forest frowned on either side the frozen waterway. The trees had been stripped by a recent wind of their white covering of frost, and they seemed to lean towards each other, black and ominous, in the fading light. A vast silence reigned over the land. The land itself was a desolation, lifeless, without movement, so lone and cold that the spirit of it was not even that of sadness. There was a hint in it of laughter, but of a laughter more terrible than any sadness—a laughter that was mirthless as the smile of the sphinx, a laughter cold as the frost and partaking of the grimness of infallibility. It was the masterful and incommunicable wisdom of eternity laughing at the futility of life and the effort of life. It was the Wild, the savage, frozen-hearted Northland Wild.<br><br>
-                    But there was life, abroad in the land and defiant. Down the frozen waterway toiled a string of wolfish dogs. Their bristly fur was rimed with frost. Their breath froze in the air as it left their mouths, spouting forth in spumes of vapour that settled upon the hair of their bodies and formed into crystals of frost. Leather harness was on the dogs, and leather traces attached them to a sled which dragged along behind. The sled was without runners. It was made of stout birch-bark, and its full surface rested on the snow. The front end of the sled was turned up, like a scroll, in order to force down and under the bore of soft snow that surged like a wave before it. On the sled, securely lashed, was a long and narrow oblong box. There were other things on the sled—blankets, an axe, and a coffee-pot and frying-pan; but prominent, occupying most of the space, was the long and narrow oblong box.<br><br>
-                    In advance of the dogs, on wide snowshoes, toiled a man. At the rear of the sled toiled a second man. On the sled, in the box, lay a third man whose toil was over,—a man whom the Wild had conquered and beaten down until he would never move nor struggle again. It is not the way of the Wild to like movement. Life is an offence to it, for life is movement; and the Wild aims always to destroy movement. It freezes the water to prevent it running to the sea; it drives the sap out of the trees till they are frozen to their mighty hearts; and most ferociously and terribly of all does the Wild harry and crush into submission man—man who is the most restless of life, ever in revolt against the dictum that all movement must in the end come to the cessation of movement.<br><br>
-                    But at front and rear, unawed and indomitable, toiled the two men who were not yet dead. Their bodies were covered with fur and soft-tanned leather. Eyelashes and cheeks and lips were so coated with the crystals from their frozen breath that their faces were not discernible. This gave them the seeming of ghostly masques, undertakers in a spectral world at the funeral of some ghost. But under it all they were men, penetrating the land of desolation and mockery and silence, puny adventurers bent on colossal adventure, pitting themselves against the might of a world as remote and alien and pulseless as the abysses of space.
-                </p>
-            </div>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="The road ahead">
+    <title>
+        The road ahead
+    </title>
+    <link rel="stylesheet" href="./style/the-road-ahead.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Oxygen:wght@300;400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <img class="logo" src="./img/logo-escape-header.svg" alt="logo Escape">
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <li class="navigation__list-item">
+                    <a class="navigation__link" href="#">Home</a>
+                </li>
+                <li class="navigation__list-item">
+                    <a class="navigation__link" href="#">Categories</a>
+                </li>
+                <li class="navigation__list-item">
+                    <a class="navigation__link" href="#">About</a>
+                </li>
+                <li class="navigation__list-item">
+                    <a class="navigation__link" href="#">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <h1 class="title">The Road Ahead</h1>
+        <h6 class="under-title">The road ahead might be paved - it might not be.</h6>
+        <img class="image" src="./img/northern-lights.png" alt="Northern Lights">
+        <div class="content">
+            <p class="content__text">
+                Dark spruce forest frowned on either side the frozen waterway. The trees had been stripped by a recent
+                wind of their white covering of frost, and they seemed to lean towards each other, black and ominous, in
+                the fading light. A vast silence reigned over the land. The land itself was a desolation, lifeless,
+                without movement, so lone and cold that the spirit of it was not even that of sadness. There was a hint
+                in it of laughter, but of a laughter more terrible than any sadness—a laughter that was mirthless as the
+                smile of the sphinx, a laughter cold as the frost and partaking of the grimness of infallibility. It was
+                the masterful and incommunicable wisdom of eternity laughing at the futility of life and the effort of
+                life. It was the Wild, the savage, frozen-hearted Northland Wild.<br><br>
+                But there was life, abroad in the land and defiant. Down the frozen waterway toiled a string of wolfish
+                dogs. Their bristly fur was rimed with frost. Their breath froze in the air as it left their mouths,
+                spouting forth in spumes of vapour that settled upon the hair of their bodies and formed into crystals
+                of frost. Leather harness was on the dogs, and leather traces attached them to a sled which dragged
+                along behind. The sled was without runners. It was made of stout birch-bark, and its full surface rested
+                on the snow. The front end of the sled was turned up, like a scroll, in order to force down and under
+                the bore of soft snow that surged like a wave before it. On the sled, securely lashed, was a long and
+                narrow oblong box. There were other things on the sled—blankets, an axe, and a coffee-pot and
+                frying-pan; but prominent, occupying most of the space, was the long and narrow oblong box.<br><br>
+                In advance of the dogs, on wide snowshoes, toiled a man. At the rear of the sled toiled a second man. On
+                the sled, in the box, lay a third man whose toil was over,—a man whom the Wild had conquered and beaten
+                down until he would never move nor struggle again. It is not the way of the Wild to like movement. Life
+                is an offence to it, for life is movement; and the Wild aims always to destroy movement. It freezes the
+                water to prevent it running to the sea; it drives the sap out of the trees till they are frozen to their
+                mighty hearts; and most ferociously and terribly of all does the Wild harry and crush into submission
+                man—man who is the most restless of life, ever in revolt against the dictum that all movement must in
+                the end come to the cessation of movement.<br><br>
+                But at front and rear, unawed and indomitable, toiled the two men who were not yet dead. Their bodies
+                were covered with fur and soft-tanned leather. Eyelashes and cheeks and lips were so coated with the
+                crystals from their frozen breath that their faces were not discernible. This gave them the seeming of
+                ghostly masques, undertakers in a spectral world at the funeral of some ghost. But under it all they
+                were men, penetrating the land of desolation and mockery and silence, puny adventurers bent on colossal
+                adventure, pitting themselves against the might of a world as remote and alien and pulseless as the
+                abysses of space.<br><br>
+            </p>
         </div>
-        <div id="footer">
-            <img id="imagef" src="images/footer_image.png" alt="альтернативный текст">
-            <div id="f"></div>
-            <div class="escape">
-                <img class="escapelogofooter" src="images/Escape.Footer.svg" alt="лого">
-                <div class="right">
-                    <a class="hometext fonttext" href="#">Home</a>
-                    <a class="contacttext fonttext" href="#">Contact</a>
-                    <a class="abouttext fonttext" href="#">About</a>                     
-                    <a class="categoriestext fonttext" href="#">Categories</a>                  
-                </div>
-            </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <img class="logo" src="./img/logo-escape-footer.svg" alt="logo Escape">
+            <nav class="navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__list-item">
+                        <a class="navigation__link navigation__link_color" href="#">Home</a>
+                    </li>
+                    <li class="navigation__list-item">
+                        <a class="navigation__link navigation__link_color" href="#">Categories</a>
+                    </li>
+                    <li class="navigation__list-item">
+                        <a class="navigation__link navigation__link_color" href="#">About</a>
+                    </li>
+                    <li class="navigation__list-item">
+                        <a class="navigation__link navigation__link_color" href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-    </body>
+    </footer>
+</body>
+
 </html>
