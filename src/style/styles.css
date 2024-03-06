@@ -69,12 +69,13 @@
     display: block;
     text-decoration: none;
     padding: 12px 0;
-    font: 400 13px/20px Oxygen;
+    font: 400 13px/20px Oxygen, sans-serif;
     letter-spacing: 0;
     text-align: center;
     color: rgba(255, 255, 255, 1);
     background: rgba(221, 120, 63, 1);
     margin: 0 auto 157px;
+    border-radius: 3px;
 }
 
 .main {
@@ -227,7 +228,7 @@
 .most-recent__item {
     width: 296px;
     height: 291px;
-    margin: 6px 12px;
+    margin: 6px 12px 19px 12px;
 }
 
 .most-recent__link {
