@@ -40,7 +40,7 @@
     text-decoration: none;
     text-transform: uppercase;
     color: rgba(46, 46, 46, 1);
-    font: 400 12px/20px Oxygen;
+    font: 400 12px/20px Oxygen, sans-serif;
     letter-spacing: 0.6px;
     text-align: left;
     padding-top: 10px;
@@ -50,7 +50,7 @@
 .title {
     margin: 0 auto;
     max-width: 498px;
-    font: 400 50px/51px Lora;
+    font: 400 50px/51px Lora, sans-serif;
     letter-spacing: 2px;
     text-align: center;
     color: rgba(46, 46, 46, 1);
@@ -60,7 +60,7 @@
 .under-title {
     margin: 0 auto;
     max-width: 504px;
-    font: 400 17px/20px Oxygen;
+    font: 400 17px/20px Oxygen, sans-serif;
     letter-spacing: 0;
     text-align: center;
     color: rgba(46, 46, 46, 0.63);
@@ -89,7 +89,7 @@
     padding-bottom: 135px;
     padding-left: 20px;
     padding-right: 20px;
-    font: 400 24px/35px Oxygen;
+    font: 400 24px/35px Oxygen, sans-serif;
     letter-spacing: 0;
     text-align: left;
     color: rgba(16, 19, 21, 1);
