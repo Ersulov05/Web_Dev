@@ -1,0 +1,207 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url('../img/login_background.jpeg') rgba(66, 70, 73, 0.4);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat:no-repeat;
+    padding: 0 20px;
+}
+.main 
+{
+    /* background: url('../img/login_background.jpeg');
+    height: 100%;
+    width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* padding: 20px; */
+    max-width: 1120px;
+    min-height: calc(100vh - 40px);
+    /* box-sizing: border-box; */
+    /* padding: 0 9% 0 14.5%; */
+    padding: 20px 0;
+    margin: 0 auto;
+}
+
+
+.logo-block
+{
+    width: 380px;
+    padding: 0 10px;
+    padding-bottom: 50px;
+}
+
+.logo-block__description
+{
+    font: 400 17px/25px Oxygen, sans-serif;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.login-block
+{
+    max-width: 480px;
+    height: 560px;
+    width: 100%;
+    background: white;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.login-block__title
+{
+    font: 400 34px/40px Lora, sans-serif;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+
+
+.critical {
+    /* display: none; */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background: rgba(255, 235, 234, 1);
+    border-left: 2px solid rgba(232, 105, 97, 1);
+    border-radius: 5px;
+    padding: 10px 12px;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+    transition: all ease 300ms;
+}
+
+.critical__image {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    transition: all ease 300ms;
+}
+
+.critical__description {
+    font: 400 14px/20px Oxygen, sans-serif;
+    text-align: left;
+    transition: all ease 300ms;
+}
+
+
+
+.login-block__label-form
+{
+    display: block;
+    margin-bottom: 5px;
+    font: 400 12px/16px Oxygen, sans-serif;
+    text-align: left;
+    max-width: 480px;
+    width: 100%;
+    color: rgba(122, 122, 122, 1);
+
+}
+
+.login-block__form-item-block {
+    margin-bottom: 40px;
+}
+
+.login-block__input-text
+{
+    max-width: 480px;
+    width: 100%;
+    background: rgba(247, 247, 247, 1);
+    border: none;
+    border-bottom: 1px solid rgba(46, 46, 46, 1);
+    font: 400 16px/24px Oxygen, sans-serif;
+    text-align: left;
+    color: rgba(46, 46, 46, 1);
+    padding: 8px 4px;
+    outline: none;
+    box-sizing: border-box;  
+}
+
+.login-block__input-text:placeholder-shown {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+
+.login-block__input-text:focus
+{
+    background: rgba(255, 255, 255, 1);
+    border-bottom: 2px solid rgba(46, 46, 46, 1);
+}
+
+.login-block__input-text-invalid 
+{
+    border-bottom: 1px solid rgba(232, 105, 97, 1);
+}
+
+.login-block__input-text-critical
+{
+    /* display: none; */
+    margin-top: 5px;
+    font: 400 12px/16px Oxygen, sans-serif;
+    text-align: left;
+    color: rgba(232, 105, 97, 1);
+    transition: all ease 300ms;
+}
+
+.login-block__login-button
+{
+    background: rgba(221, 120, 63, 1);
+    font: 400 16px/24px Oxygen, sans-serif;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    width: 100px;
+    height: 48px;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    transition: all ease 0.28s;
+}
+
+.login-block__login-button:hover {
+    opacity: 0.8;
+}
+
+.login-block__login-button:active {
+    transform: scale(0.87);
+    opacity: 1;
+}
+
+
+@media screen and (min-width: 1200px)
+    {
+        .main 
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        max-width: 1120px;
+        min-height: calc(100vh - 40px);
+        padding: 20px 9% 20px 15%;
+        margin: 0 auto;
+    }
+
+    .login-block
+    {
+        max-width: 480px;
+        height: 560px;
+        width: 100%;
+        background: white;
+        padding: 40px;
+        box-sizing: border-box;
+    }
+}
+
+.hidden
+{
+    margin: 0;
+    padding: 0;
+    height: 0;
+    color: transparent;
+    background-color: transparent;
+}
